@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="main-year" id="yearNum">
+        </div>
+        <div class="triangle-left">
+        </div>
+        <div class="triangle-right">
+        </div>
+        <section class="calendar-section">
+        <div class="months">
+        </div>
+        <hr class="month-line" />
+        <table class="calendar-table" id="calendar">
+            <thead>
+                <tr>
+                    <th class="days-of-week">Sun</th>
+                    <th class="days-of-week">Mon</th>
+                    <th class="days-of-week">Tue</th>
+                    <th class="days-of-week">Wed</th>
+                    <th class="days-of-week">Thu</th>
+                    <th class="days-of-week">Fri</th>
+                    <th class="days-of-week">Sat</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body">
+            </tbody>
+        </table>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
